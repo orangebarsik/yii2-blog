@@ -17,8 +17,7 @@ use common\models\ImageManager;
     <?php $form = ActiveForm::begin([
             'options' => ['enctype' => 'multipart/form-data'],
     ]); ?>
-
-
+    
     <div class="row">
 
     <?= $form->field($model, 'file', ['options' => ['class' => 'col-xs-6']])->widget(\kartik\file\FileInput::classname(), [
